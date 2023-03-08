@@ -1,0 +1,475 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#08214c;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+section
+{
+	width: 100%;
+	margin: auto;
+	padding: 20px;
+}
+
+header {
+	height: 170px;
+	background-color:#0c519c;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img {
+	padding-top: 25px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 25px;
+	float: right;
+}
+
+.image {
+	padding-top: 70px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 25px;
+	transition: all 0.3s;
+}
+
+.image:hover {
+	transform: scale(1.2);
+}
+
+.image1 {
+	padding-top: 75px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 25px;
+	transition: all 0.3s;
+}
+
+.image1:hover {
+	transform: scale(1.2);
+}
+
+.image2 {
+	padding-top: 25px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 25px;
+}
+
+.image3 {
+	padding-top: 75px;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-bottom: 75px;
+	transition: all 0.3s;
+}
+
+.image4 {
+	padding-top: 75px;
+	padding-left: 150px;
+	padding-right: 75px;
+	padding-bottom: 75px;
+	transition: all 0.3s;
+	float: left;
+}
+
+.image5 {
+	padding-top: 75px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 75px;
+	transition: all 0.3s;
+}
+
+.image3:hover {
+	transform: scale(1.2);
+}
+
+.image4:hover {
+	transform: scale(1.2);
+}
+
+.image5:hover {
+	transform: scale(1.2);
+}
+
+.apimg {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.tx1 {
+	padding-top: 135px;
+	padding-bottom: 50px;
+	padding-left: 900px;
+	padding-right: 200px;
+}
+
+.tx2 {
+	padding-top: 50px;
+	margin-left: 200px;
+	padding-right: 300px;
+}
+
+.tx3 {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 80px;
+	font-size: 35px;
+}
+
+.tx4 {
+	background-color: #A47AF1;
+	height: 500px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 175px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.tx5 {
+	padding-top: 125px;
+	padding-bottom: 50px;
+	padding-left: 900px;
+	padding-right: 200px;
+	background-color: #C8E156;
+	height: 200px;
+}
+
+.tx6 {
+	font-size: 25px;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	background-color: #B4BF67;
+}
+
+.season {
+	background-color: #5AF8C4;
+}
+
+p {
+	font-family: 'Gentium Plus', serif;
+}
+
+.nava a:link {
+	text-decoration: none;
+ 	color: yellow;
+}
+
+.nava a:visited {
+	text-decoration: none;
+ 	color: white;
+}
+
+.nava a:hover {
+	text-decoration: none;
+ 	color: red;
+}
+
+.nava a:active {
+	text-decoration: none;
+ 	color: orangered;
+}
+
+nav {
+	height: 75px;
+	padding-top: 25px;
+	background-color: cornflowerblue;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.sec1 {
+	background-color:#CF9C07;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 350px;
+	width: auto;
+}
+
+.sec2 {
+	background-image: url("images/cloud_background.jpg");
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 350px;
+	width: auto;
+}
+
+.sec3 {
+	background-color:#9ED4EF;
+	height: 600px;
+}
+
+.btn {
+    width: 300px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: slateblue;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+	margin-left: 200px;
+	margin-top: 80px;
+  }
+  
+.btn:hover {
+    transform: translateY(-10px);
+  }
+
+.btn a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.btn a:visited {
+	text-decoration: none;
+ 	color: gold;
+}
+
+.btn a:hover {
+	transform: translateY(-10px);
+	text-decoration: none;
+ 	color: brown;
+}
+
+.btn a:active {
+	text-decoration: none;
+ 	color: aqua;
+}
+
+.f {
+	float: right;
+	color: orangered;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 22px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+	margin-left: 700px;
+}
+
+.button2 {
+	text-decoration: none;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  text-decoration: none;
+  background-color: #008CBA;
+  color: white;
+}
+
+.button2 a:hover {
+  text-decoration: none;
+  background-color: #008CBA;
+  color: white;
+}
+
+.button2 a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.button2 a:visited {
+	text-decoration: none;
+ 	color: gold;
+}
+
+.button2 a:active {
+	text-decoration: none;
+ 	color: aqua;
+}
+
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+    text-align: center;
+    color: white;
+	float: left;
+}
+
+.flex-container div {
+	width: auto;
+	text-align: center;
+	font-size: 30px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 1px;
+	padding-left: 125px;
+}
+
+.bottom2 {
+    position: absolute;
+    bottom: 1px;
+	padding-left: 75px;
+}
+
+.piece {
+	width: auto;
+	padding-left: 25px;
+}
+
+.piece image3 {
+	vertical-align: middle;
+	width: 100%;
+}
+
+.ani {
+  position: relative;
+  animation-name: ball;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes ball {
+  0%   {left:0px; top:70px;}
+  25%  {left:1800px; top:70px;}
+  50%  {left:1800px; top:450px;}
+  75%  {left:0px; top:450px;}
+  100% {left:0px; top:70px;}
+}
+
+.ani2 {
+  position: relative;
+  animation-name: ball2;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+  animation-direction: reverse;
+}
+
+@keyframes ball2 {
+  0%   {left:0px; top:70px;}
+  25%  {left:1800px; top:70px;}
+  50%  {left:1800px; top:450px;}
+  75%  {left:0px; top:450px;}
+  100% {left:0px; top:70px;}
+}
+
+.ani3 {
+  position: relative;
+  animation-name: ball3;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+  animation-delay: 1s;
+}
+
+@keyframes ball3 {
+  0%   {left:0px; top:70px;}
+  25%  {left:1800px; top:70px;}
+  50%  {left:1800px; top:450px;}
+  75%  {left:0px; top:450px;}
+  100% {left:0px; top:70px;}
+}
+
+.podex {
+	width: 1250px;
+	height: 800px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.submenu {
+	text-decoration: none;
+    background-color:#BB53F8;
+    webkit-transition: 1s ease-in-out;
+    moz-transition: 1s ease-in-out;
+    o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+	float: right;
+	margin-right: 100px;
+  }
+
+.submenu:hover {
+    background-color: #fc3;
+    webkit-transform: rotate(360deg) scale(2);
+    moz-transform: rotate(360deg) scale(2);
+    o-transform: rotate(360deg) scale(2);
+    ms-transform: rotate(360deg) scale(2);
+    transform: rotate(360deg) scale(2);
+  }
+
+.submenu:active {
+    background-color:#68D6ED;
+    webkit-transform: rotate(360deg) scale(2);
+    moz-transform: rotate(360deg) scale(2);
+    o-transform: rotate(360deg) scale(2);
+    ms-transform: rotate(360deg) scale(2);
+    transform: rotate(360deg) scale(2);
+  }
+
+.submenu a:hover {
+	text-decoration: none;
+    background-color: #fc3;
+  }
+
+.submenu a:link {
+	text-decoration: none;
+}
+
+.submenu a:visited {
+	text-decoration: none;
+}
+
+.submenu a:actived {
+	text-decoration: none;
+}
+
+.contact1{
+    background: #fff;
+    display:flex;
+    margin:80px 0;
+}
+
+.contact2{
+    width:90%;
+    margin:0 auto;
+}
+ 
+.contact2 h2{
+    text-transform:uppercase;
+	background-color: #82C4FB;
+    text-align:center;
+    margin-top:50px;
+}
+
+@media screen and (max-width:991px){
+    .inside-contact input, .inside-contact textarea{
+        background-color:#fff;
+    }
+}
